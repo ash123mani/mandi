@@ -1,0 +1,19 @@
+@import "~antd/dist/antd.css";
+@import "./styles/style";
+@import "./styles/reset";
+
+.app {
+  height: 100%;
+
+  &__layout {
+    padding: 24px 20%;
+  }
+}
+
+@include fasal-mq-medium-down {
+  .app {
+    &__layout {
+      padding: 24px;
+    }
+  }
+}

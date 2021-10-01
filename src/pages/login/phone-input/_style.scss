@@ -1,0 +1,28 @@
+.phone-input {
+  width: 100%;
+
+  &__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+
+    & span {
+      // color: #1890ff;
+      font-weight: bold;
+    }
+  }
+
+  &__submit {
+    max-width: unset !important;
+    margin-top: 24px;
+  }
+
+  &__edit {
+    font-weight: bold;
+    color: #1890ff;
+    text-decoration: underline;
+    margin: 4px;
+    cursor: pointer;
+    text-align: right;
+  }
+}

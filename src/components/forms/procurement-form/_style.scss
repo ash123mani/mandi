@@ -1,0 +1,15 @@
+.procurement {
+  &__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+
+  & .ant-picker {
+    width: 100%;
+  }
+}
+
+.anticon-minus-circle svg {
+  fill: red;
+}

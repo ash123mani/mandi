@@ -1,0 +1,8 @@
+@mixin font-face {
+  @font-face {
+    font-family: "Universe";
+    font-display: swap;
+    font-weight: normal;
+    src: local("Universe"), url("../assets/universe.ttf") format("truetype");
+  }
+}
